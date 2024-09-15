@@ -52,14 +52,15 @@
     "moment":"2.18.1"
   },
   "dependencies": {
-     "react-select": "^1.0.0-beta14",
-    "react-bootstrap": "0.30.0-rc.2",
-    "rc-collapse": "^1.6.6",
-    "react-modal": "^1.6.4",
-    "react-redux": "^5.0.5",
-    "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0"
-  },
+  "redux": "^4.2.0", // Update to a compatible version
+  "redux-thunk": "^2.4.2", // Ensure it's compatible with the updated redux
+  "react-select": "^1.0.0-beta14",
+  "react-bootstrap": "0.30.0-rc.2",
+  "rc-collapse": "^1.6.6",
+  "react-modal": "^1.6.4",
+  "react-redux": "^7.2.8", // Ensure compatibility with redux 4
+  // other dependencies
+},
   "peerDependency": {
     "react": "15.0.2",
     "react-dom": "15.0.2",
